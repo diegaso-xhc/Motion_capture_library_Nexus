@@ -3,6 +3,5 @@ This repository has the purpose of easing the post processing, evaluation and vi
 
 
 
-Developed by Diego Hidalgo C. 
-2020
+Developed by Diego Hidalgo C. (2020).
 This repository should be used for only research purposes. For commercial purposes, please contact the author at diego.hidalgo-carvajal@tum.de.
