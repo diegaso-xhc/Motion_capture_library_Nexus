@@ -13,17 +13,17 @@ dependencies; % Load required functions and files.
 %%%% Simply uncomment the case that best suits you and comment the other
 %%%% one.
 
-%% Case 1: NEXUS is open and available
+% Case 1: NEXUS is open and available
 
-% !  Select the study which needs post processing on NEXUS before using 
-% this script.   !
-% If the study is already saved, simply load the study as shown on second
-% part of this tutorial.
-
+% % !  Select the study which needs post processing on NEXUS before using 
+% % this script.   !
+% % If the study is already saved, simply load the study as shown on second
+% % part of this tutorial.
+% 
 % st = Study(); % Create a Study object (see Study class for reference).
-              % All relevant information related to the recording
-              % session can be accessed through this object.
-
+%               % All relevant information related to the recording
+%               % session can be accessed through this object.
+% 
 % st % General information regarding the study can be found by executing this command
 % 
 % st.plot_traj(); % This command plots the whole study in matlab. You can use this to double check if the selected study is the desired one.
@@ -43,9 +43,9 @@ dependencies; % Load required functions and files.
 % % properties.
 % st.subjects{1}.markers{1} % This will print the information of marker 1 of subject 1. 
 % st.subjects{1}.markers{1}.traj % This will print the trajectory of marker 1 (subject 1) as a n_samples x 3 matrix. Each column representes X, Y, Z coordinates, respectively.
-
+% 
 % st.save_data(2, 'data_file') % Creates a .csv file with all the trajectories of all markers belonging to subject 1. Each column shows the marker name. The name of the marker 
-                               % is repeated 3 times (one for X, Y, Z, respectively).
+%                                 % is repeated 3 times (one for X, Y, Z, respectively).
 
 %% Case 2: NEXUS is not available and you have previously saved studies
 

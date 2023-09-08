@@ -43,6 +43,7 @@ classdef Study
             hold on
             h2Plot = plot3(NaN,NaN,NaN,'.b'); % Object plot
             axis('equal')
+            set(gcf,'color','w');
             pbaspect([1 1 1])            
             xlim([100 600])
             ylim([400 1400])
@@ -51,7 +52,8 @@ classdef Study
             ylabel('Y')
             zlabel('Z')
             str = strcat('Trial:', '  ', obj.name(end-2: end));
-            title(str)
+            %title(str)
+            title("Nexus recording")
             grid on
             ls = length(obj.subjects); % Number of subjects
             for t = 1: obj.n_smp
