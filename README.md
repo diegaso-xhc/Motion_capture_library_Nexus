@@ -30,7 +30,7 @@ The repository was developed in Matlab, using the following software version:
 - Vicon Nexus MATLAB sdk
 ```
 
-You will need to add the <a href="[https://www.prensilia.com/](https://www.vicon.com/software/datastream-sdk/?section=downloads)">Nexus' Matlab sdk</a> to your project in order to use this library. Once this step is completed, the library in this repository will take over low level communication with Nexus and return marker's positions in an easilly accessible manner. 
+You will need to add the <a href="https://www.vicon.com/software/datastream-sdk/?section=downloads">Nexus' Matlab sdk</a> to your project in order to use this library. Once this step is completed, the library in this repository will take over low level communication with Nexus and return marker's positions in an easilly accessible manner. 
 
 <br />
 Please explore the main.m file, which contains functions for both scenarios, namely, when you want to directly visualize a recently recording study (Nexus is open and the corresponding recording is selected), and when you have saved recorded data (we used .mat files, and you can adapt the code to your specific recordings format).
