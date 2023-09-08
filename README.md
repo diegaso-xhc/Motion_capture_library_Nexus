@@ -40,46 +40,27 @@ You will need to add the <a href="[https://www.prensilia.com/](https://www.vicon
 The contributions of this repository can be summarized as follows:
 
 ```
-- Algorithms for handling differential equations, transfer functions, and state space representations
-- Algorithms to manipulate matrices in an intuitive and efficient manner
-- Algorithms to operate on system response parameters (e.g. angle, phase, etc.)
-- An intuitive GUI (with similar nomenclature as MATLAB for transfer functions) to analyze systems time and frequency response
-- An open source code, which can be used for teaching of fundamentals of control systems.
+- Algorithms for interface matlab applications with nexus software
+- Algorithms to manipulate and visualize marker trajectories
+- Functions specifically written to track human and robot hands
 ```
 
-## Examples of GUI usage
+## Examples of library visualizations
 
-### Time response to a Sine-wave-like excitement signal
+### Tracking a human hand interacting with an object
 
-The following figure shows the time response of a system to a sine wave excitement signal of 4Hz. Note that in order to obtain the time response, the user needs to do the following:
-
-```
-- Input the transfer function: [numerator separated by commas];[denominator separated by commas]
-- Click on Create Model
-- Input the sampling time (dt), initial time (t(t0)), and final time in seconds.
-- If the user requires a step response, click on Step response. For sine wave excitements, please input the frequency of the sine wave and click on Sine response.
-- The user can then click on get time response or view frequency spectrum.
-- Although visualizations for Bode and Nichols charts are not available at the moment, the user can still click them and extract the frequency responses from the library.
-```
+The following figure shows a capture of an interaction between a hand and an object. The library can add coordinate frames to each subject on the motion capture study.
 
 <p align="center">
-   <img src="/Visualizations/Sine_response.PNG" width="650" />
+   <img src="/Visualizations/Axes_subject.png" width="650" />
 </p>
 
-### Time response to a Step-like excitement signal
+### Visualization of a single marker coordinates
 
-The following figure shows the time response of a system to a step-like excitement signal:
-
-<p align="center">
-  <img src="/Visualizations/Systems_time_response.PNG" width="650" />  
-</p>
-
-### Frequency spectrum of the input signal
-
-The following figure shows the frequency spectrum of an input sine-wave-like signal of 52Hz:
+The following figure shows the trajectory of a single marker within a study along the whole motion capture study:
 
 <p align="center">
-   <img src="/Visualizations/Frequency_spectrum.PNG" width="650" />
+  <img src="/Visualizations/Trajectory_tracking.png" width="650" />  
 </p>
 
 ## License
