@@ -52,7 +52,7 @@ The contributions of this repository can be summarized as follows:
 The following figure shows a capture of an interaction between a hand and an object. The library can add coordinate frames to each subject on the motion capture study.
 
 <p align="center">
-   <img src="/Visualizations/Axes_subject.png" width="650" />
+   <img src="/Visualizations/Axes_subject.png" width="400" />
 </p>
 
 ### Visualization of a single marker coordinates
@@ -60,7 +60,7 @@ The following figure shows a capture of an interaction between a hand and an obj
 The following figure shows the trajectory of a single marker within a study along the whole motion capture study:
 
 <p align="center">
-  <img src="/Visualizations/Trajectory_tracking.png" width="650" />  
+  <img src="/Visualizations/Trajectory_tracking.png" width="400" />  
 </p>
 
 ## License
