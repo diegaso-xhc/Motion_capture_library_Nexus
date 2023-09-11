@@ -1,6 +1,6 @@
 # Interface with NEXUS (Motion tracking system software)
 
-## Overview of the repostitory
+## Overview of the repository
 <div align="justify">
 Motion capture systems are widely used to track the motion of bodies in a range of scenarios. This is done by using a set of infrared cameras arranged in an specific way, who track reflective markers positioned in body landmarks of interest. Then algorithms can determine the coordinates of a marker in space in a certain time. 
 
